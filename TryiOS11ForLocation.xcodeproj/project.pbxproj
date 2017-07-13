@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30597DE21F17112A000B4E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30597DE11F17112A000B4E65 /* AppDelegate.swift */; };
+		30597DE41F17112A000B4E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30597DE31F17112A000B4E65 /* ViewController.swift */; };
+		30597DE71F17112A000B4E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30597DE51F17112A000B4E65 /* Main.storyboard */; };
+		30597DE91F17112A000B4E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30597DE81F17112A000B4E65 /* Assets.xcassets */; };
+		30597DEC1F17112A000B4E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30597DEA1F17112A000B4E65 /* LaunchScreen.storyboard */; };
+		30597DF71F17112A000B4E65 /* TryiOS11ForLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30597DF61F17112A000B4E65 /* TryiOS11ForLocationTests.swift */; };
+		30597E021F17112A000B4E65 /* TryiOS11ForLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30597E011F17112A000B4E65 /* TryiOS11ForLocationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30597DF31F17112A000B4E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30597DD61F17112A000B4E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30597DDD1F17112A000B4E65;
+			remoteInfo = TryiOS11ForLocation;
+		};
+		30597DFE1F17112A000B4E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30597DD61F17112A000B4E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30597DDD1F17112A000B4E65;
+			remoteInfo = TryiOS11ForLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30597DDE1F17112A000B4E65 /* TryiOS11ForLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryiOS11ForLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30597DE11F17112A000B4E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30597DE31F17112A000B4E65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30597DE61F17112A000B4E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30597DE81F17112A000B4E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30597DEB1F17112A000B4E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30597DED1F17112A000B4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30597DF21F17112A000B4E65 /* TryiOS11ForLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryiOS11ForLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30597DF61F17112A000B4E65 /* TryiOS11ForLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryiOS11ForLocationTests.swift; sourceTree = "<group>"; };
+		30597DF81F17112A000B4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30597DFD1F17112A000B4E65 /* TryiOS11ForLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryiOS11ForLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30597E011F17112A000B4E65 /* TryiOS11ForLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryiOS11ForLocationUITests.swift; sourceTree = "<group>"; };
+		30597E031F17112A000B4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30597DDB1F17112A000B4E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30597DEF1F17112A000B4E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30597DFA1F17112A000B4E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30597DD51F17112A000B4E65 = {
+			isa = PBXGroup;
+			children = (
+				30597DE01F17112A000B4E65 /* TryiOS11ForLocation */,
+				30597DF51F17112A000B4E65 /* TryiOS11ForLocationTests */,
+				30597E001F17112A000B4E65 /* TryiOS11ForLocationUITests */,
+				30597DDF1F17112A000B4E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30597DDF1F17112A000B4E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30597DDE1F17112A000B4E65 /* TryiOS11ForLocation.app */,
+				30597DF21F17112A000B4E65 /* TryiOS11ForLocationTests.xctest */,
+				30597DFD1F17112A000B4E65 /* TryiOS11ForLocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30597DE01F17112A000B4E65 /* TryiOS11ForLocation */ = {
+			isa = PBXGroup;
+			children = (
+				30597DE11F17112A000B4E65 /* AppDelegate.swift */,
+				30597DE31F17112A000B4E65 /* ViewController.swift */,
+				30597DE51F17112A000B4E65 /* Main.storyboard */,
+				30597DE81F17112A000B4E65 /* Assets.xcassets */,
+				30597DEA1F17112A000B4E65 /* LaunchScreen.storyboard */,
+				30597DED1F17112A000B4E65 /* Info.plist */,
+			);
+			path = TryiOS11ForLocation;
+			sourceTree = "<group>";
+		};
+		30597DF51F17112A000B4E65 /* TryiOS11ForLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				30597DF61F17112A000B4E65 /* TryiOS11ForLocationTests.swift */,
+				30597DF81F17112A000B4E65 /* Info.plist */,
+			);
+			path = TryiOS11ForLocationTests;
+			sourceTree = "<group>";
+		};
+		30597E001F17112A000B4E65 /* TryiOS11ForLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30597E011F17112A000B4E65 /* TryiOS11ForLocationUITests.swift */,
+				30597E031F17112A000B4E65 /* Info.plist */,
+			);
+			path = TryiOS11ForLocationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30597DDD1F17112A000B4E65 /* TryiOS11ForLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30597E061F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocation" */;
+			buildPhases = (
+				30597DDA1F17112A000B4E65 /* Sources */,
+				30597DDB1F17112A000B4E65 /* Frameworks */,
+				30597DDC1F17112A000B4E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryiOS11ForLocation;
+			productName = TryiOS11ForLocation;
+			productReference = 30597DDE1F17112A000B4E65 /* TryiOS11ForLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30597DF11F17112A000B4E65 /* TryiOS11ForLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30597E091F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocationTests" */;
+			buildPhases = (
+				30597DEE1F17112A000B4E65 /* Sources */,
+				30597DEF1F17112A000B4E65 /* Frameworks */,
+				30597DF01F17112A000B4E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30597DF41F17112A000B4E65 /* PBXTargetDependency */,
+			);
+			name = TryiOS11ForLocationTests;
+			productName = TryiOS11ForLocationTests;
+			productReference = 30597DF21F17112A000B4E65 /* TryiOS11ForLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30597DFC1F17112A000B4E65 /* TryiOS11ForLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30597E0C1F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocationUITests" */;
+			buildPhases = (
+				30597DF91F17112A000B4E65 /* Sources */,
+				30597DFA1F17112A000B4E65 /* Frameworks */,
+				30597DFB1F17112A000B4E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30597DFF1F17112A000B4E65 /* PBXTargetDependency */,
+			);
+			name = TryiOS11ForLocationUITests;
+			productName = TryiOS11ForLocationUITests;
+			productReference = 30597DFD1F17112A000B4E65 /* TryiOS11ForLocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30597DD61F17112A000B4E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "takeshi sato";
+				TargetAttributes = {
+					30597DDD1F17112A000B4E65 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					30597DF11F17112A000B4E65 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 30597DDD1F17112A000B4E65;
+					};
+					30597DFC1F17112A000B4E65 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 30597DDD1F17112A000B4E65;
+					};
+				};
+			};
+			buildConfigurationList = 30597DD91F17112A000B4E65 /* Build configuration list for PBXProject "TryiOS11ForLocation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30597DD51F17112A000B4E65;
+			productRefGroup = 30597DDF1F17112A000B4E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30597DDD1F17112A000B4E65 /* TryiOS11ForLocation */,
+				30597DF11F17112A000B4E65 /* TryiOS11ForLocationTests */,
+				30597DFC1F17112A000B4E65 /* TryiOS11ForLocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30597DDC1F17112A000B4E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30597DEC1F17112A000B4E65 /* LaunchScreen.storyboard in Resources */,
+				30597DE91F17112A000B4E65 /* Assets.xcassets in Resources */,
+				30597DE71F17112A000B4E65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30597DF01F17112A000B4E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30597DFB1F17112A000B4E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30597DDA1F17112A000B4E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30597DE41F17112A000B4E65 /* ViewController.swift in Sources */,
+				30597DE21F17112A000B4E65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30597DEE1F17112A000B4E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30597DF71F17112A000B4E65 /* TryiOS11ForLocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30597DF91F17112A000B4E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30597E021F17112A000B4E65 /* TryiOS11ForLocationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30597DF41F17112A000B4E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30597DDD1F17112A000B4E65 /* TryiOS11ForLocation */;
+			targetProxy = 30597DF31F17112A000B4E65 /* PBXContainerItemProxy */;
+		};
+		30597DFF1F17112A000B4E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30597DDD1F17112A000B4E65 /* TryiOS11ForLocation */;
+			targetProxy = 30597DFE1F17112A000B4E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30597DE51F17112A000B4E65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30597DE61F17112A000B4E65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30597DEA1F17112A000B4E65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30597DEB1F17112A000B4E65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30597E041F17112A000B4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30597E051F17112A000B4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30597E071F17112A000B4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				INFOPLIST_FILE = TryiOS11ForLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal-factory.try.location.TryiOS11ForLocation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30597E081F17112A000B4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				INFOPLIST_FILE = TryiOS11ForLocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal-factory.try.location.TryiOS11ForLocation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30597E0A1F17112A000B4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				INFOPLIST_FILE = TryiOS11ForLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal-factory.try.location.TryiOS11ForLocationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryiOS11ForLocation.app/TryiOS11ForLocation";
+			};
+			name = Debug;
+		};
+		30597E0B1F17112A000B4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				INFOPLIST_FILE = TryiOS11ForLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal-factory.try.location.TryiOS11ForLocationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryiOS11ForLocation.app/TryiOS11ForLocation";
+			};
+			name = Release;
+		};
+		30597E0D1F17112A000B4E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				INFOPLIST_FILE = TryiOS11ForLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal-factory.try.location.TryiOS11ForLocationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryiOS11ForLocation;
+			};
+			name = Debug;
+		};
+		30597E0E1F17112A000B4E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WNEUDLL4LF;
+				INFOPLIST_FILE = TryiOS11ForLocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal-factory.try.location.TryiOS11ForLocationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryiOS11ForLocation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30597DD91F17112A000B4E65 /* Build configuration list for PBXProject "TryiOS11ForLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30597E041F17112A000B4E65 /* Debug */,
+				30597E051F17112A000B4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30597E061F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30597E071F17112A000B4E65 /* Debug */,
+				30597E081F17112A000B4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30597E091F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30597E0A1F17112A000B4E65 /* Debug */,
+				30597E0B1F17112A000B4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30597E0C1F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30597E0D1F17112A000B4E65 /* Debug */,
+				30597E0E1F17112A000B4E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30597DD61F17112A000B4E65 /* Project object */;
+}
