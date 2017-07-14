@@ -14,6 +14,7 @@
 		30597DEC1F17112A000B4E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30597DEA1F17112A000B4E65 /* LaunchScreen.storyboard */; };
 		30597DF71F17112A000B4E65 /* TryiOS11ForLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30597DF61F17112A000B4E65 /* TryiOS11ForLocationTests.swift */; };
 		30597E021F17112A000B4E65 /* TryiOS11ForLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30597E011F17112A000B4E65 /* TryiOS11ForLocationUITests.swift */; };
+		30597E111F172CEB000B4E65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30597E101F172CE1000B4E65 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		30597DFD1F17112A000B4E65 /* TryiOS11ForLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryiOS11ForLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30597E011F17112A000B4E65 /* TryiOS11ForLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryiOS11ForLocationUITests.swift; sourceTree = "<group>"; };
 		30597E031F17112A000B4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30597E101F172CE1000B4E65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30597E111F172CEB000B4E65 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				30597DF51F17112A000B4E65 /* TryiOS11ForLocationTests */,
 				30597E001F17112A000B4E65 /* TryiOS11ForLocationUITests */,
 				30597DDF1F17112A000B4E65 /* Products */,
+				30597E0F1F172CE1000B4E65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				30597E031F17112A000B4E65 /* Info.plist */,
 			);
 			path = TryiOS11ForLocationUITests;
+			sourceTree = "<group>";
+		};
+		30597E0F1F172CE1000B4E65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30597E101F172CE1000B4E65 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +205,11 @@
 				TargetAttributes = {
 					30597DDD1F17112A000B4E65 = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					30597DF11F17112A000B4E65 = {
 						CreatedOnToolsVersion = 9.0;
@@ -528,6 +545,7 @@
 				30597E081F17112A000B4E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30597E091F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +554,7 @@
 				30597E0B1F17112A000B4E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30597E0C1F17112A000B4E65 /* Build configuration list for PBXNativeTarget "TryiOS11ForLocationUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +563,7 @@
 				30597E0E1F17112A000B4E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
