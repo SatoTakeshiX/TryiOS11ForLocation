@@ -70,7 +70,6 @@ class ViewController: UIViewController {
             break
         case .restricted:
             //ペアレントコントロールなどで制限されている
-            //
             print("エラー:restricted")
             break
             
@@ -86,9 +85,6 @@ class ViewController: UIViewController {
     func start(){
         self.locationManager.allowsBackgroundLocationUpdates = true //バックグラウンドでも更新が続くようにする
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation //精度は最強
-        //self.locationManager.distanceFilter = 30.0  // In meters.
-        //self.locationManager.pausesLocationUpdatesAutomatically = true
-        //self.locationManager.activityType = .fitness
         self.locationManager.startUpdatingLocation() //開始
     }
     
